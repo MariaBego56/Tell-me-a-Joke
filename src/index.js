@@ -4,7 +4,7 @@ function tellMeJoke() {
 
   let apikey = "79c10854b8bbfdaa4tfa826305864ob5";
   let context = "be polite";
-  let prompt = "tell me jokes about gas engineers or a gas workes";
+  let prompt = "tell me a joke about gas engineers or a gas workes";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${encodeURIComponent(
     prompt
   )}&context=${encodeURIComponent(context)}&key=${apikey}`;
